@@ -48,8 +48,13 @@ export const Profile = styled.div`
     margin-left: 16px;
     line-height: 24px;
 
-    strong {
+    a {
+      text-decoration: none;
       color: #ff9000;
+
+      &:hover {
+        opacity: 0.8;
+      }
     }
 
     span {
@@ -148,6 +153,10 @@ export const Section = styled.section`
     display: block;
     padding-bottom: 16px;
     margin-bottom: 16px;
+  }
+
+  > p {
+    color: #999591;
   }
 `;
 
